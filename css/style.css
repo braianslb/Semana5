@@ -1,0 +1,109 @@
+ * { 
+    margin: 0px;
+    padding: 0px;
+ }
+
+body {
+      background: black;
+      color: black;
+}
+
+#contenedor {
+     width: 960px;
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     background: black;
+     border: 3px solid black;
+}
+
+header {
+     height: 200px;
+     background: black;
+     background-image: url(file:///C:/Users/ADMINT/Desktop/Web/Semana%204/image/Mjred.JPG), url(paper.gif);
+     padding: 50px;
+     width: 859px;
+     height: 260px;
+}
+
+header h1 {
+    font-size: 90px;
+    text-align: center;    
+    line-height: 500px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+}
+
+nav {
+   background: white;
+   height: 30px;
+   text-align: center;
+   word-spacing: 1cm;
+   color: white;
+}
+
+nav h2 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 32px;
+    display: inline;
+}
+
+ #contenido {
+     width: 960px;
+     height: 500px;
+     float: left;
+     background: black;
+     margin-top: 45px;
+     margin-bottom: 6px;
+     color: black;
+     font-family: Arial, sans-serif;
+     font-size: 21px;
+     text-align: justify;
+}
+
+h2, p {
+	color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+
+}
+
+a:visited {
+    color: black;
+
+}
+
+a:hover {
+    color: red;
+
+}
+
+a:active {
+    color: red;
+
+}
+
+section {
+    column-count: 2;
+    column-gap: 70px;
+}
+
+footer {
+     background: black;
+     clear: both;
+     color: white;
+     float: left;
+     font-size: 12px;
+}
+
+
+
+
